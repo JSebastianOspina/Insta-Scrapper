@@ -7,3 +7,5 @@ app.get('api/getUser', async (req, res) => {
     res.setHeader('Content-Type', 'application/json');
     res.send(JSON.stringify(userInfo));
 })
+
+module.exports = app;
